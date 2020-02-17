@@ -10,4 +10,5 @@ const ComponenteB = (props) =>
         <h1>A idade do usuário é: {props.idadeUsuarioCadastrado}</h1>
     </div>
 
+export default ComponenteA
 export {ComponenteA, ComponenteB}
