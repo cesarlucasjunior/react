@@ -1,13 +1,13 @@
 import React from 'react'
-import FamiliaSilva from './FamiliaSilva'
+import Membro from './Membro'
 
 export default (props) =>
 
 <div>
-    <FamiliaSilva nome="Ana" sobreNome="Silva" />
-    <FamiliaSilva nome="José" sobreNome="Silva" />
-    <FamiliaSilva nome="Maria" sobreNome="Silva" />
-    <FamiliaSilva nome="Francisco" sobreNome="Silva" />
-    <FamiliaSilva nome="Joaquina" sobreNome="Silva" />
+    <Membro nome="Ana" sobreNome="Silva" />
+    <Membro nome="José" sobreNome="Silva" />
+    <Membro nome="Maria" sobreNome="Silva" />
+    <Membro nome="Francisco" sobreNome="Silva" />
+    <Membro nome="Joaquina" sobreNome="Silva" />
 </div>
 
