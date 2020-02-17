@@ -16,10 +16,10 @@ ReactDOM.render(
         <ComponenteA nomeUsuarioCadastrado="Alfa Beta Teste"></ComponenteA>
         <B idadeUsuarioCadastrado={26}></B>
         <MultiElementos />
-        <Familia>
-            <Membro nome="Anderson" sobreNome="Silva" />
-            <Membro nome="Maria" sobreNome="Silva" />
-            <Membro nome="Adelaide" sobreNome="Silva" />
+        <Familia sobreNome="Silva">
+            <Membro nome="Anderson" />
+            <Membro nome="Andreia" />
+            <Membro nome="Fernanda" />
         </Familia>
 
     </div>
